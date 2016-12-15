@@ -1,4 +1,4 @@
-baseurl: 'housing-data-hub'
+baseurl: ''
 permalink:	/:categories/:title/
 markdown: kramdown
 gems:
