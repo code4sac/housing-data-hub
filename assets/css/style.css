@@ -163,7 +163,7 @@ ul.nav-browser li.active {
   background: #333 url(/assets/images/timeless_books.jpg) 50% 50% no-repeat;
 }
 .home.masthead {
-  background: url(assets/images/SacSkyline.jpg) 60% 30% no-repeat;
+  background: url(/assets/images/SacSkyline.jpg) 60% 30% no-repeat;
 }
 .about.masthead {
    background: url(/assets/images/haight.jpg) 50% 50% no-repeat;
