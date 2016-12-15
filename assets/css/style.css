@@ -154,7 +154,7 @@ ul.nav-browser li.active {
 }
 
 .overview.masthead {
-   background: #333 url(/housing-data-hub/assets/images/J16Corner.jpg) 50% 50% no-repeat;
+   background: #333 url(/housing-data-hub/assets/images/J16Corner.jpg) 50% 40% no-repeat;
 }
 .policies.masthead {
   background: #333 url(/housing-data-hub/assets/images/OldCityHall.jpg) 50% 50% no-repeat;
@@ -169,7 +169,7 @@ ul.nav-browser li.active {
    background: url(/housing-data-hub/assets/images/haight.jpg) 50% 50% no-repeat;
 }
 .resources.masthead {
-  background: url(/housing-data-hub/assets/images/Bridge.jpg) 60% 30% no-repeat;
+  background: url(/housing-data-hub/assets/images/Bridge.jpg) 50% 60% no-repeat;
 }
 .image-attribution p {
   text-align: right;
