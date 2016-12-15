@@ -1,11 +1,11 @@
 ---
 ---
-var browserData =
-{
-{% for post in site.posts reversed | sort: title %}
-{% if post.layout == 'data' %}
-  	"{{post.id | replace:'"','\"'}}": {
-  		"category" : "{{post.category}}",
+
+var browserData = {
+  {% for post in site.posts %}
+  {% if post.layout == 'data' %}
+  "{{post.id | replace:'"','\"'}}": {
+    "category" : "{{post.category}}",
   		"data" : "{{post.data}}",
   		"x" : "{{post.column}}",
   		"xFormat" : "{{post.xInputFormat}}",
@@ -32,12 +32,12 @@ var browserData =
       "emphasis": {{post.emphasis | jsonify}},
       "legend": "{{post.legend}}",
       "legendCategories": {{post.legendCategories | jsonify}},
-      "max": "{{post.max}}",
       "pleft": "{{post.pleft}}",
       "portalID": "{{post.portalID}}",
       "xLabel": "{{post.xLabel}}",
       "yLabel": "{{post.yLabel}}"
-  	} {% unless forloop.last %},{% endunless%}
-{% endif %}
-{% endfor %}
+  }
+  {% unless forloop.last %},{% endunless%}
+  {% endif %}
+  {% endfor %}
 };
