@@ -20,7 +20,7 @@ sass:
   style: :compressed
 
 prose:
-  siteurl: 'http://l84tahoe.github.io/housing-data-hub'
+  siteurl: 'http://l84tahoe.github.io'
   media: 'assets/images'
   metadata:
     data-browser/_posts:
