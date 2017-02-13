@@ -1,17 +1,17 @@
 - text: Overview
   url: /overview/
   actual: /overview/index.html
-- text: 'Policies & Programs'
-  url: /policies/
-  actual: /policies/index.html
-  layout: policy
-- text: Data Browser
-  url: /data-browser/
-  actual: /data-browser/index.html
-  layout: data
-- text: Resources
-  url: /resources/
-  actual: /resources/index.html
+#- text: 'Policies & Programs'
+#  url: /policies/
+#  actual: /policies/index.html
+#  layout: policy
+#- text: Data Browser
+#  url: /data-browser/
+#  actual: /data-browser/index.html
+#  layout: data
+#- text: Resources
+#  url: /resources/
+#  actual: /resources/index.html
 - text: About
   url: /about/
   actual: /about/index.html
