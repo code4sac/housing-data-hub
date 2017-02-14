@@ -3,13 +3,13 @@ layout: data
 title: Affordability by tenure
 "chart-title": "Distribution of households paying more or less than the recommended affordable share of income"
 category: "Housing-Affordability"
-data: housing-affordability/ACS14_1YR_affordability_by_tenure.csv
+data: housing-affordability/acs15_5yr_affordability_by_tenure.csv
 type: bar
 "axisType": category
 column: Tenure
 "yFormat": .2p
 published: true
-source: "Census Bureau, 2014 American Community Survey 1-Year Estimates. Selected Housing Characteristics."
+source: "Census Bureau, 2015 American Community Survey 5-Year Estimates. Selected Housing Characteristics."
 scale: "5"
 max: 1
 groups:
