@@ -1,3 +1,4 @@
+site: 'https://l84tahoe.github.io'
 baseurl: '/housing-data-hub'
 permalink:	/:categories/:title/
 markdown: kramdown
