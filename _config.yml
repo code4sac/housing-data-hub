@@ -1,4 +1,4 @@
-baseurl: ''
+baseurl: '/housing-data-hub'
 permalink:	/:categories/:title/
 markdown: kramdown
 gems:
@@ -20,7 +20,7 @@ sass:
   style: :compressed
 
 prose:
-  siteurl: 'http://l84tahoe.github.io/housing-data-hub'
+  siteurl: 'http://l84tahoe.github.io/housing-data-hub/'
   media: 'assets/images'
   metadata:
     data-browser/_posts:
