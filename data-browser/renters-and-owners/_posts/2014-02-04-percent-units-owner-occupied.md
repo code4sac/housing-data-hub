@@ -9,7 +9,7 @@ colors: PuBu
 legend-title: "Percent owner-occupied"
 type: map
 units: "%"
-published: true
+published: false
 "axisType": category
 "yFormat": "$,"
 source: "U.S. Census Bureau, 2010 Census. Profile of General Population and Housing Characteristics."

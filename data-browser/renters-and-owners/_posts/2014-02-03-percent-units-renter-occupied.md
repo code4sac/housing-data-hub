@@ -10,7 +10,7 @@ colors: PuBu
 "legend-title": "Percent renter-occupied"
 type: map
 units: "%"
-published: true
+published: false
 source: "U.S. Census Bureau, 2010 Census. Profile of General Population and Housing Characteristics."
 notes: "Note that open spaces, such as Golden Gate Park and the Presidio, have very few units. "
 ---

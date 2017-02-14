@@ -18,4 +18,4 @@ source: "Minnesota Population Center. National Historical Geographic Information
 
 #Update from here: http://factfinder.census.gov/bkmk/table/1.0/en/ACS/15_5YR/B25036/1600000US0664000
 ---
-This chart shows the count of renter and owner-occupied units over time, starting with the Decennial census in 1970. The relative distribution of units has generally tracked around two-thirds renter-occupied, one-third owner.
+This chart shows the count of renter and owner-occupied units over time, starting with the Decennial census in 1970. The percentage of renter occupied has been steadily increasing. In 2000 we see and almost even split between renter occupied and owner occupied.
