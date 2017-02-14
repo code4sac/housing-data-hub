@@ -18,6 +18,5 @@ xLabel: Year
 axisYMax: 2500000
 #Update from here: http://factfinder.census.gov/bkmk/table/1.0/en/ACS/14_5YR/S1101/0500000US06075
 ---
-var chart = c3.generate({
 
 A household consists of one or more people leaving together within a single housing unit. The chart below shows the total number of households over time.

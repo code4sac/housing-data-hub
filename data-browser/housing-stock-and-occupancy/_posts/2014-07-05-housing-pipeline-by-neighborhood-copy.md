@@ -6,7 +6,7 @@ category: housing-stock-and-occupancy
 source: SF Planning Department, Pipeline Report Q2 2016
 portalID: g5sr-9nhs
 notes: The chart does not include very large projects over 800 units.
-published: true
+published: false
 type: bar-horizontal
 column: Neighborhood
 axisType: category
