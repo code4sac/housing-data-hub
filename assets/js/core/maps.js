@@ -12,7 +12,7 @@ function HubMap(options) {
   this.baseLayer = "";
   this.valuesOnlyArray = [];
   /* default overlays */
-  this.overlays = ['/data-browser/data/sup_districts.json', '/data-browser/data/neighborhoods.json'];
+  this.overlays = ['/housing-data-hub/data-browser/data/sup_districts.json', '/housing-data-hub/data-browser/data/neighborhoods.json'];
   this.overlayData = [];
   this.overlayTemplate = "";
 }
@@ -26,7 +26,7 @@ Load and process data for use in the map
 */
 HubMap.prototype.loadData = function() {
   var $$ = this, options = $$.options;
-  var data = (/^https?:\/\//.test(options.data)) ? options.data : '/data-browser/data/' + options.data;
+  var data = (/^https?:\/\//.test(options.data)) ? options.data : '/housing-data-hub/data-browser/data/' + options.data;
   $$.options.dataType = (data.indexOf("geojson") > -1 ? "geojson" : data.indexOf("json") > -1 ? "json" : data.indexOf("csv") > -1 ? "csv" : false);
   if(!options.dataType) {
     throw new Error('Data is not one of either json, geojson or csv');
@@ -53,7 +53,7 @@ HubMap.prototype.loadData = function() {
       dataType: "text",
       success: function(data) {
         json = scaleData(d3.csv.parse(data));
-        $.getJSON('/data-browser/data/sf_census_tracts.json', function(geodata) {
+        $.getJSON('/housing-data-hub/data-browser/data/sf_census_tracts.json', function(geodata) {
           $$.data = addDataToGeoJson(json, geodata);
           $$.render();
         });
