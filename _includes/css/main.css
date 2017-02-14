@@ -154,19 +154,19 @@ ul.nav-browser li.active {
 }
 
 .overview.masthead {
-   background: #333 url(assets/images/market_street.jpg) 50% 50% no-repeat;
+   background: #333 baseurl(assets/images/market_street.jpg) 50% 50% no-repeat;
 }
 .policies.masthead {
-  background: #333 url(assets/images/ggb_at_dusk.jpg) 50% 50% no-repeat;
+  background: #333 baseurl(assets/images/ggb_at_dusk.jpg) 50% 50% no-repeat;
 }
 .data-browser.masthead {
-  background: #333 url(assets/images/timeless_books.jpg) 50% 50% no-repeat;
+  background: #333 baseurl(assets/images/timeless_books.jpg) 50% 50% no-repeat;
 }
 .home.masthead {
-  background: url(assets/images/sf_evening.jpg) 50% 50% no-repeat;
+  background: baseurl(assets/images/sf_evening.jpg) 50% 50% no-repeat;
 }
 .about.masthead {
-   background: url(assets/images/haight.jpg) 50% 50% no-repeat;
+   background: baseurl(assets/images/haight.jpg) 50% 50% no-repeat;
 }
 .image-attribution p {
   text-align: right;

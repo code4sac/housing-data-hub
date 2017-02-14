@@ -154,22 +154,22 @@ ul.nav-browser li.active {
 }
 
 .overview.masthead {
-   background: #333 url(/assets/images/J16Corner.jpg) 50% 40% no-repeat;
+   background: #333 url(/housing-data-hub/assets/images/J16Corner.jpg) 50% 40% no-repeat;
 }
 .policies.masthead {
-  background: #333 url(/assets/images/OldCityHall.jpg) 50% 50% no-repeat;
+  background: #333 url(/housing-data-hub/assets/images/OldCityHall.jpg) 50% 50% no-repeat;
 }
 .data-browser.masthead {
-  background: #333 url(/assets/images/timeless_books.jpg) 50% 50% no-repeat;
+  background: #333 url(/housing-data-hub/assets/images/timeless_books.jpg) 50% 50% no-repeat;
 }
 .home.masthead {
-  background: url(/assets/images/SacSkyline.jpg) 60% 30% no-repeat;
+  background: url(/housing-data-hub/assets/images/SacSkyline.jpg) 60% 30% no-repeat;
 }
 .about.masthead {
-   background: url(/assets/images/haight.jpg) 50% 50% no-repeat;
+   background: url(/housing-data-hub/assets/images/haight.jpg) 50% 50% no-repeat;
 }
 .resources.masthead {
-  background: url(/assets/images/Bridge.jpg) 50% 60% no-repeat;
+  background: url(/housing-data-hub/assets/images/Bridge.jpg) 50% 60% no-repeat;
 }
 .image-attribution p {
   text-align: right;
