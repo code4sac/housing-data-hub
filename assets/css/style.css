@@ -43,7 +43,7 @@ body.embed {
   .intro h2 {
     text-align: right;
   }
-  
+
 }
 
 @media (min-width: 949px) {
@@ -154,24 +154,24 @@ ul.nav-browser li.active {
 }
 
 .overview.masthead {
-   background: #333 url(/housing-data-hub/assets/images/J16Corner.jpg) 50% 40% no-repeat;
+   background: #333 url(/assets/images/J16Corner.jpg) 50% 40% no-repeat;
    background-size: 100%;
 }
 .policies.masthead {
-  background: #333 url(/housing-data-hub/assets/images/OldCityHall.jpg) 50% 50% no-repeat;
+  background: #333 url(/assets/images/OldCityHall.jpg) 50% 50% no-repeat;
 }
 .data-browser.masthead {
-  background: #333 url(/housing-data-hub/assets/images/timeless_books.jpg) 50% 50% no-repeat;
+  background: #333 url(/assets/images/timeless_books.jpg) 50% 50% no-repeat;
 }
 .home.masthead {
-  background: url(/housing-data-hub/assets/images/SacSkyline.jpg) 60% 30% no-repeat;
+  background: url(/assets/images/SacSkyline.jpg) 60% 30% no-repeat;
 }
 .about.masthead {
-   background: url(/housing-data-hub/assets/images/OldCityHall.jpg) 50% 65% no-repeat;
+   background: url(/assets/images/OldCityHall.jpg) 50% 65% no-repeat;
    background-size: 100%;
 }
 .resources.masthead {
-  background: url(/housing-data-hub/assets/images/Bridge.jpg) 50% 60% no-repeat;
+  background: url(/assets/images/Bridge.jpg) 50% 60% no-repeat;
 }
 .image-attribution p {
   text-align: right;
@@ -184,7 +184,7 @@ ul.nav-browser li.active {
   height: 100%;
   position: relative;
   z-index: 3;
-} 
+}
 
 .masthead h1 {
   position: absolute;
@@ -310,7 +310,7 @@ margin-bottom: 20px;
 .sidenote {
   float: left;
   width: 120px;
-  margin: .2143em 0 0 -164px; 
+  margin: .2143em 0 0 -164px;
   /*padding-top: .75em;*/
   font-size: .875em !important;
   line-height: 1.42857 !important;
@@ -371,12 +371,12 @@ h2 {
 }
 
 /* set offset for top of h2 so that the nav doesn't cover the auto scroll */
-h2:before, #maincontent:before { 
-  display: block; 
-  content: " "; 
-  margin-top: -90px; 
-  height: 90px; 
-  visibility: hidden; 
+h2:before, #maincontent:before {
+  display: block;
+  content: " ";
+  margin-top: -90px;
+  height: 90px;
+  visibility: hidden;
 }
 
 .no-scroll-fix h2:before {
@@ -431,7 +431,7 @@ h2:before, #maincontent:before {
 }
 
 .action-links a:hover {
- text-decoration: none; 
+ text-decoration: none;
 }
 
 .action-links button {
@@ -586,14 +586,14 @@ h1.chart-title {
   z-index: -1000;
 }
 
-.equal, .equal > div[class*='col-'] {  
+.equal, .equal > div[class*='col-'] {
     display: -webkit-flex;
     display: flex;
     flex:1 1 auto;
 }
 
 @media (max-width: 768px) {
-  .equal, .equal > div[class*='col-'] {  
+  .equal, .equal > div[class*='col-'] {
     display: block;
   }
 }
@@ -755,10 +755,10 @@ a.definition:hover, a.definition:focus {
 .target {
   border-radius: 50%;
   border: thin solid #ddd;
-  position:absolute; 
-  bottom: -15px; 
-  right: -15px; 
-  width: 60px; 
+  position:absolute;
+  bottom: -15px;
+  right: -15px;
+  width: 60px;
   height: 60px;
 }
 
@@ -796,7 +796,7 @@ a.definition:hover, a.definition:focus {
 }
 
 
-/* Ribbon 
+/* Ribbon
 from: http://unindented.org/articles/github-ribbon-using-css-transforms/
 */
 .ribbon {

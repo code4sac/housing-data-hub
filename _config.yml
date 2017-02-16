@@ -1,5 +1,5 @@
-site: 'https://l84tahoe.github.io'
-baseurl: '/housing-data-hub'
+site: 'http://sachousingdata.org'
+baseurl: ''
 permalink:	/:categories/:title/
 markdown: kramdown
 gems:
@@ -21,7 +21,7 @@ sass:
   style: :compressed
 
 prose:
-  siteurl: 'http://l84tahoe.github.io/housing-data-hub/'
+  siteurl: 'http://sachousingdata.org/'
   media: 'assets/images'
   metadata:
     data-browser/_posts:
@@ -217,5 +217,3 @@ prose:
           element: 'text'
           label: 'Related Data Category'
           help: 'Please indicate what category of data should show up in the embedded data browser in this policy page.'
-
-

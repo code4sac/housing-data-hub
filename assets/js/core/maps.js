@@ -12,7 +12,7 @@ function HubMap(options) {
   this.baseLayer = "";
   this.valuesOnlyArray = [];
   /* default overlays */
-  this.overlays = ['/housing-data-hub/data-browser/data/sup_districts.json', '/housing-data-hub/data-browser/data/neighborhoods.json'];
+  this.overlays = ['/data-browser/data/sup_districts.json', '/data-browser/data/neighborhoods.json'];
   this.overlayData = [];
   this.overlayTemplate = "";
 }
@@ -26,12 +26,12 @@ Load and process data for use in the map
 */
 HubMap.prototype.loadData = function() {
   var $$ = this, options = $$.options;
-  var data = (/^https?:\/\//.test(options.data)) ? options.data : '/housing-data-hub/data-browser/data/' + options.data;
+  var data = (/^https?:\/\//.test(options.data)) ? options.data : '/data-browser/data/' + options.data;
   $$.options.dataType = (data.indexOf("geojson") > -1 ? "geojson" : data.indexOf("json") > -1 ? "json" : data.indexOf("csv") > -1 ? "csv" : false);
   if(!options.dataType) {
     throw new Error('Data is not one of either json, geojson or csv');
   }
-  
+
   if(options.type == 'map-point') {
     $$.getOverlayData(function() {
       if(options.dataType == 'geojson') {
@@ -53,7 +53,7 @@ HubMap.prototype.loadData = function() {
       dataType: "text",
       success: function(data) {
         json = scaleData(d3.csv.parse(data));
-        $.getJSON('/housing-data-hub/data-browser/data/SacTracts.json', function(geodata) {
+        $.getJSON('/data-browser/data/SacTracts.json', function(geodata) {
           $$.data = addDataToGeoJson(json, geodata);
           $$.render();
         });
@@ -139,7 +139,7 @@ HubMap.prototype.loadData = function() {
     $$.map = L.mapbox.map($$.options.container, 'datasf.j9b9ihf0').setView([38.563068, -121.474505], z);
     L.control.fullscreen().addTo($$.map);
     /* add base layer: this can be abstracted further to just pass in geojson data and layer function */
-    if(options.type == 'map-point') { 
+    if(options.type == 'map-point') {
       $$.baseLayer = customLayer($$.data).addTo($$.map);
       setOverlayLayers();
     } else if(options.type == 'map') {
@@ -291,7 +291,7 @@ HubMap.prototype.loadData = function() {
         },
         onEachFeature: onEachFeature
       }
-      
+
       var overlayLayers = {
         "No Overlay": new L.layerGroup(),
         "Supervisor Districts": new L.geoJson($$.overlayData[0], baseDefinition),
@@ -299,7 +299,7 @@ HubMap.prototype.loadData = function() {
       }
 
       $$.overlayTemplate = new L.geoJson($$.overlayData[1], baseDefinition);
-      
+
       L.control.layers(overlayLayers, null).addTo($$.map);
     }
   };
