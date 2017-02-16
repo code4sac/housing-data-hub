@@ -63,7 +63,7 @@ HubChart.prototype.render = function() {
 
   /* detect whether the data is being passed via external url */
   if (typeof data === "string") {
-    var url = (/^https?:\/\//.test(data)) ? data : '/housing-data-hub/data-browser/data/' + data;
+    var url = (/^https?:\/\//.test(data)) ? data : '/data-browser/data/' + data;
   }
   /* define derived variables based on input options */
   show = options.legend == 'none' ? false : true;
