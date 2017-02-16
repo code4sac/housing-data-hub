@@ -218,9 +218,9 @@ HubMap.prototype.loadData = function() {
       var color = $$.getColor(feature.properties.scaledValue, feature.properties.scale);
       return {
         fillColor: color,
-        weight: 2,
-        opacity: 0.3,
-        color: '#808080',
+        weight: 1,
+        opacity: 1,
+        color: '#000000',
         fillOpacity: 0.7
       };
     }
@@ -246,8 +246,8 @@ HubMap.prototype.loadData = function() {
     // highlight feature
     layer.setStyle({
       weight: 3,
-      opacity: 0.4,
-      color: d3.rgb('#808080').darker()
+      opacity: 1,
+      color: d3.rgb('#FF0000').darker()
     });
 
     if (!L.Browser.ie && !L.Browser.opera) {
