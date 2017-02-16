@@ -53,7 +53,7 @@ HubMap.prototype.loadData = function() {
       dataType: "text",
       success: function(data) {
         json = scaleData(d3.csv.parse(data));
-        $.getJSON('/housing-data-hub/data-browser/data/sf_census_tracts.json', function(geodata) {
+        $.getJSON('/housing-data-hub/data-browser/data/SacTracts.json', function(geodata) {
           $$.data = addDataToGeoJson(json, geodata);
           $$.render();
         });
@@ -133,10 +133,10 @@ HubMap.prototype.loadData = function() {
       });
     }
 
-    L.mapbox.accessToken = 'pk.eyJ1IjoiZGF0YXNmIiwiYSI6Ilo3bVlHRDQifQ.7gkiPnZtioL8CnCvJ5z9Bg';
+    L.mapbox.accessToken = 'pk.eyJ1IjoibDg0dGFoZSIsImEiOiI0NTZiYzQyYWYxMTM0YzhiOGVlNTMzZTIyOTEzNGM1MCJ9.LYHXE9Ky_Y-Wx5llO49zBA';
     /* initialize map and extra controls */
-    var z = options.zoom || 12
-    $$.map = L.mapbox.map($$.options.container, 'datasf.j9b9ihf0').setView([37.767806, -122.438153], z);
+    var z = options.zoom || 11
+    $$.map = L.mapbox.map($$.options.container, 'datasf.j9b9ihf0').setView([38.563068, -121.474505], z);
     L.control.fullscreen().addTo($$.map);
     /* add base layer: this can be abstracted further to just pass in geojson data and layer function */
     if(options.type == 'map-point') { 
