@@ -388,6 +388,7 @@ h2:before, #maincontent:before {
 
 .home-buttons h2 {
   min-height: 132px;
+  text-align: center;
   }
 
 .acknowledge {
@@ -449,6 +450,18 @@ h2:before, #maincontent:before {
 
 .btn-lightblue {
   background-color: #317ab9;
+}
+
+.btn-aquablue {
+  background-color: #38aecc;
+}
+
+.btn-darkerblue {
+  background-color: #004965;
+}
+
+.btn-midblue {
+  background-color: #017eaf;
 }
 
 .btn-primary {
