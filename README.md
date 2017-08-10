@@ -1,5 +1,9 @@
 Housing Data Hub
 ===============
+The Sacramento Housing Data Hub was inspired by a desire to provide community members with a common set of facts and data surrounding the complex issue of housing affordability in the Sacramento area. The site, a work in progress, is a comprehensive website to help Sacramento area residents understand the housing market, including for-sale inventory, single-family detached and multi-family rentals, subsidized affordable units, and more. The site will feature housing data visualizations, the relationship between housing costs, vacancy rates, income, and the local economy, explore existing and potential policy solutions, and catalogue the ongoing discussion at the federal, state, and local level.
+
+
+
 At its core, this is just a [Jekyll site that leverages open data APIs, CSV files and some great open source javascript libraries] to handle charting and visualization.
 
 ###Getting started
